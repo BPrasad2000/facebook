@@ -1,7 +1,10 @@
 .leftplaneBox{
-    flex:3;
+    flex:2;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    font-family:sans-serif;
+    position: sticky;
+    top: 50px;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -24,15 +27,17 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-
+    cursor: pointer;
 }
 .leftpanelMenuIcon{
     margin-right: 20px;
 }
 .pagePic{
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
 }
 .pagesyouliked{
     font-family: sans-serif;
@@ -50,6 +55,7 @@
     align-items: center;
     margin-bottom: 15px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .pageName{
     margin-left: 10px;
